@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Honk&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Honk&family=Lobster&family=Madimi+One&display=swap');
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+
+}
+header{
+    background-image: url(./Imagenes/blueys\ dawn\ background.jpg);
+}
+
+a{
+   text-decoration: none;
+   font-family: "Lobster", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 200%;
+   color: rgb(144, 221, 12);
+   
+   
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 400px;
+}
+
+
+h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    color: rgb(85, 107, 47);
+
+}
+
+p{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
+    color: rgb(70, 130, 180);
+   }
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(230, 230, 250)
+}
+
+.caja{
+    width: 300%;
+    height: 200%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 50%;
+}
+footer{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    color: rgb(85, 107, 47)
+}
+
+.imagen{
+    width: 500px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapa{
+    padding: 10px;
+}
+
+.video{
+    padding: 10px;
+}
+
+.nosotros{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 250)
+
+}
+
+.cookies{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 250)
+}
+
+.formulario{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
+    color: rgb(70, 130, 180);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 250)
+}
